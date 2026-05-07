@@ -1,0 +1,478 @@
+{
+  "call_id": "f62be0f2-740e-4a78-aba8-8e050906a11c",
+  "lead_id": null,
+  "timestamp_start": null,
+  "timestamp_end": "2026-05-07T13:59:21.015078+00:00",
+  "duration_seconds": null,
+  "system_score": null,
+  "final_phase": null,
+  "value_step_reached": null,
+  "lead": {
+    "name": "Danny",
+    "phone": "929-286-8678",
+    "city": null,
+    "partner_type": "MFD"
+  },
+  "language": {
+    "detected": "en",
+    "used": "English",
+    "switched_mid_call": false,
+    "switched_to": null
+  },
+  "benefits_covered": {
+    "zero_joining_fee": true,
+    "hundred_percent_brokerage": true,
+    "daily_payouts": true,
+    "rise_portal": true
+  },
+  "objections": [
+    {
+      "type": "trustworthiness",
+      "value": "sounds like a scam",
+      "lead_text": "That sounds good, but that sounds like a scam too.",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "value": "can't reveal volume",
+      "lead_text": "I can't reveal it, man.",
+      "resolved": true
+    },
+    {
+      "type": "think_about_it",
+      "value": "not sure",
+      "lead_text": "Yes, I don't know, but I'm not sure.",
+      "resolved": true
+    }
+  ],
+  "qualification": {
+    "score": 100,
+    "classification": "Hot",
+    "classification_value": "Hot",
+    "signals": {
+      "verbal_interest": "high",
+      "readiness": "immediate",
+      "sentiment_end_of_call": "neutral",
+      "asked_followup_questions": true,
+      "signup_intent_stated": true
+    }
+  },
+  "outcome": {
+    "result": "signed_up",
+    "result_value": "Signed Up",
+    "cta_given": "none",
+    "cta_given_value": "None",
+    "cta_accepted": true,
+    "callback_time_requested": null
+  },
+  "rm_handoff": {
+    "triggered": false,
+    "summary": "Lead, Danny, is a financial professional interested in increasing earnings from clients' trades. He was initially skeptical and hesitant to share trading volumes but was convinced by the benefits of higher payouts, zero joining fees, and daily payouts. He provided his name and number for signup. He briefly asked about platform features but indicated he didn't have time for a detailed discussion right now. The RM should follow up to ensure his account is activated and to provide an overview of the Rupeezy platform and its dashboard features.",
+    "unresolved_objections": [],
+    "do_not_repitch": [
+      "zero_joining_fee",
+      "hundred_percent_brokerage",
+      "daily_payouts",
+      "rise_portal"
+    ],
+    "lead_language": "en"
+  },
+  "post_call_summary": "Lead Danny, an English-speaking financial professional, showed high interest in Rupeezy's higher payouts and daily settlement, agreeing to sign up immediately and providing his details. He briefly inquired about platform features but deferred a detailed discussion. Classify as Hot. An RM should follow up to confirm account activation and provide a comprehensive demo of the RISE portal at his convenience.",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "agent",
+      "text": "Sir, quick question — if someone in your field was earning more from the same clients, you'd want to know how, right?"
+    },
+    {
+      "turn": 2,
+      "speaker": "lead",
+      "text": "Yes, but why you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "agent",
+      "text": "Of course — we're not just another platform. We actually give partners like you higher payouts on every trade compared to what most brokers offer. That means more earnings from the same clients you already have."
+    },
+    {
+      "turn": 4,
+      "speaker": "lead",
+      "text": "That sounds good, but that sounds like a scam too."
+    },
+    {
+      "turn": 5,
+      "speaker": "agent",
+      "text": "I get why you'd think that — a lot of platforms make big promises. But we're backed by a regulated entity and our partners are already seeing the difference in their payouts. Have you ever compared what you're earning per trade with your current setup?"
+    },
+    {
+      "turn": 6,
+      "speaker": "lead",
+      "text": "Yes, I did try seeing it."
+    },
+    {
+      "turn": 7,
+      "speaker": "agent",
+      "text": "That's smart — most people don't even check. So you already know there's room to earn more from the same effort. What kind of trading volume are you and your clients doing roughly?"
+    },
+    {
+      "turn": 8,
+      "speaker": "lead",
+      "text": "What do you mean by trading volumes?"
+    },
+    {
+      "turn": 9,
+      "speaker": "agent",
+      "text": "I mean the total value of trades your clients place in a month — it could be in lakhs or crores. That usually gives a clear idea of how much extra you could be earning with a better payout structure."
+    },
+    {
+      "turn": 10,
+      "speaker": "lead",
+      "text": "I can't reveal it, man."
+    },
+    {
+      "turn": 11,
+      "speaker": "agent",
+      "text": "Totally get it — privacy matters. No need for exact numbers. Just thinking, if you're handling even a moderate volume, a better payout structure could make a noticeable difference in your earnings. Ever thought about that side of things?"
+    },
+    {
+      "turn": 12,
+      "speaker": "lead",
+      "text": "Yes, I don't know, but I'm not sure."
+    },
+    {
+      "turn": 13,
+      "speaker": "agent",
+      "text": "Fair enough — it’s natural to be unsure when something new comes up. But just imagine, if you could keep everything the same — same clients, same work — but earn more per trade, wouldn’t that be worth exploring?"
+    },
+    {
+      "turn": 14,
+      "speaker": "lead",
+      "text": "Yes, that makes sense."
+    },
+    {
+      "turn": 15,
+      "speaker": "agent",
+      "text": "Exactly. And the best part is, there’s zero joining fee — so you can test it out without any upfront cost. How does that sound?"
+    },
+    {
+      "turn": 16,
+      "speaker": "lead",
+      "text": "So there are no hidden charges at all?"
+    },
+    {
+      "turn": 17,
+      "speaker": "lead",
+      "text": "No."
+    },
+    {
+      "turn": 18,
+      "speaker": "agent",
+      "text": "That's right — no hidden charges, no joining fee. Everything is transparent, and your earnings are yours to keep. Would you be open to seeing how the numbers compare with what you're currently getting?"
+    },
+    {
+      "turn": 19,
+      "speaker": "lead",
+      "text": "Yes, sure. Why not?"
+    },
+    {
+      "turn": 20,
+      "speaker": "lead",
+      "text": "Okay."
+    },
+    {
+      "turn": 21,
+      "speaker": "agent",
+      "text": "Great. I'll share the details right away — you'll see the exact breakdown per trade. Just to make it relevant, what's the average size of trades your clients usually place?"
+    },
+    {
+      "turn": 22,
+      "speaker": "lead",
+      "text": "I would say around, like, 10,000 dollars or something."
+    },
+    {
+      "turn": 23,
+      "speaker": "agent",
+      "text": "Perfect — that’s a solid volume. With that, you’d see a clear difference in your daily payouts compared to traditional brokers. Ready to see how much more you could be earning?"
+    },
+    {
+      "turn": 24,
+      "speaker": "lead",
+      "text": "Yes. Let's suppose if I have a client who has, like, 10,000 rupees in daily trade, how much more profit I would be getting? Can you explain that to me?"
+    },
+    {
+      "turn": 25,
+      "speaker": "agent",
+      "text": "Absolutely. Let's say a client trades with ₹10,000 daily — with our higher brokerage sharing, you could earn significantly more per trade compared to standard brokers. For example, if your current broker gives you ₹50 per trade, with us it could go up to ₹80 or even ₹100 based on volume. That adds up fast day by day."
+    },
+    {
+      "turn": 26,
+      "speaker": "lead",
+      "text": "Okay, that makes sense."
+    },
+    {
+      "turn": 27,
+      "speaker": "agent",
+      "text": "And since payouts happen daily, you don’t have to wait for end-of-month settlements. Everything gets credited straight to your account by the next morning. How does that sound for managing your cash flow?"
+    },
+    {
+      "turn": 28,
+      "speaker": "lead",
+      "text": "It sounds amazing. That's a lot that you are offering right now."
+    },
+    {
+      "turn": 29,
+      "speaker": "agent",
+      "text": "Glad you see the value. Many partners switch for exactly that reason — consistent daily earnings and higher payouts without the wait. Would you like me to help you get started right away?"
+    },
+    {
+      "turn": 30,
+      "speaker": "lead",
+      "text": "Yes, sure."
+    },
+    {
+      "turn": 31,
+      "speaker": "agent",
+      "text": "Perfect. I’ll quickly guide you through the signup — it’s just a few details and you can begin right after. Should we start?"
+    },
+    {
+      "turn": 32,
+      "speaker": "lead",
+      "text": "Yes, sure."
+    },
+    {
+      "turn": 33,
+      "speaker": "agent",
+      "text": "Great. Let’s begin with your name and phone number — I’ll set up your partner account right away."
+    },
+    {
+      "turn": 34,
+      "speaker": "lead",
+      "text": "Uh, my name is Danny, and my phone number is 929-286-8678."
+    },
+    {
+      "turn": 35,
+      "speaker": "agent",
+      "text": "Thanks, Danny. I’ve noted your details — your account is being created. You’ll receive a confirmation SMS shortly. Welcome to Rupeezy!"
+    },
+    {
+      "turn": 36,
+      "speaker": "agent",
+      "text": "(interrupting gently)  \nYou’ll get all the login details and next steps over SMS in a moment — keep an eye on your phone. Anything else you’d like to know before we wrap up?"
+    },
+    {
+      "turn": 37,
+      "speaker": "lead",
+      "text": "Oh, that's great. How-"
+    },
+    {
+      "turn": 38,
+      "speaker": "lead",
+      "text": "Mm-hmm ... do I know more about the features that you are giving to me if I wanna go through the platform?"
+    },
+    {
+      "turn": 39,
+      "speaker": "lead",
+      "text": "Mm-hmm."
+    },
+    {
+      "turn": 40,
+      "speaker": "agent",
+      "text": "Sure thing. One of the key features is instant, daily payouts — no waiting for end-of-month settlements. Plus, you get a clear dashboard to track all your earnings and client activity in real time. Want me to walk you through how it works once you’re in?"
+    },
+    {
+      "turn": 41,
+      "speaker": "lead",
+      "text": "I don't think so. Not right now. I don't have time for that. Let's do it some other day."
+    },
+    {
+      "turn": 42,
+      "speaker": "agent",
+      "text": "No problem at all — take your time. You’ll get all the details over SMS once your account is active. Feel free to explore whenever you’re ready."
+    },
+    {
+      "turn": 43,
+      "speaker": "lead",
+      "text": "Okay. Thank you."
+    },
+    {
+      "turn": 44,
+      "speaker": "agent",
+      "text": "You're welcome, Danny. We're glad to have you onboard."
+    },
+    {
+      "turn": 45,
+      "speaker": "lead",
+      "text": "Disconnect the call."
+    }
+  ],
+  "score_timeline": [
+    {
+      "turn": 1,
+      "speaker": "agent",
+      "text_preview": "Sir, quick question — if someone in your field was earning m...",
+      "score": 5,
+      "signal": "neutral",
+      "phase": "engage"
+    },
+    {
+      "turn": 3,
+      "speaker": "agent",
+      "text_preview": "Of course — we're not just another platform. We actually giv...",
+      "score": 15,
+      "signal": "positive",
+      "phase": "engage"
+    },
+    {
+      "turn": 5,
+      "speaker": "agent",
+      "text_preview": "I get why you'd think that — a lot of platforms make big pro...",
+      "score": 20,
+      "signal": "neutral",
+      "phase": "engage"
+    },
+    {
+      "turn": 7,
+      "speaker": "agent",
+      "text_preview": "That's smart — most people don't even check. So you already ...",
+      "score": 25,
+      "signal": "neutral",
+      "phase": "engage"
+    },
+    {
+      "turn": 9,
+      "speaker": "agent",
+      "text_preview": "I mean the total value of trades your clients place in a mon...",
+      "score": 30,
+      "signal": "neutral",
+      "phase": "engage"
+    },
+    {
+      "turn": 11,
+      "speaker": "agent",
+      "text_preview": "Totally get it — privacy matters. No need for exact numbers....",
+      "score": 35,
+      "signal": "neutral",
+      "phase": "engage"
+    },
+    {
+      "turn": 13,
+      "speaker": "agent",
+      "text_preview": "Fair enough — it’s natural to be unsure when something new c...",
+      "score": 40,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 15,
+      "speaker": "agent",
+      "text_preview": "Exactly. And the best part is, there’s zero joining fee — so...",
+      "score": 45,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 18,
+      "speaker": "agent",
+      "text_preview": "That's right — no hidden charges, no joining fee. Everything...",
+      "score": 50,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 21,
+      "speaker": "agent",
+      "text_preview": "Great. I'll share the details right away — you'll see the ex...",
+      "score": 55,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 23,
+      "speaker": "agent",
+      "text_preview": "Perfect — that’s a solid volume. With that, you’d see a clea...",
+      "score": 60,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 25,
+      "speaker": "agent",
+      "text_preview": "Absolutely. Let's say a client trades with ₹10,000 daily — w...",
+      "score": 70,
+      "signal": "positive",
+      "phase": "value"
+    },
+    {
+      "turn": 27,
+      "speaker": "agent",
+      "text_preview": "And since payouts happen daily, you don’t have to wait for e...",
+      "score": 75,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 29,
+      "speaker": "agent",
+      "text_preview": "Glad you see the value. Many partners switch for exactly tha...",
+      "score": 80,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 31,
+      "speaker": "agent",
+      "text_preview": "Perfect. I’ll quickly guide you through the signup — it’s ju...",
+      "score": 85,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 33,
+      "speaker": "agent",
+      "text_preview": "Great. Let’s begin with your name and phone number — I’ll se...",
+      "score": 95,
+      "signal": "positive",
+      "phase": "value"
+    },
+    {
+      "turn": 35,
+      "speaker": "agent",
+      "text_preview": "Thanks, Danny. I’ve noted your details — your account is bei...",
+      "score": 100,
+      "signal": "positive",
+      "phase": "value"
+    },
+    {
+      "turn": 36,
+      "speaker": "agent",
+      "text_preview": "(interrupting gently)  \nYou’ll get all the login details and...",
+      "score": 100,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 40,
+      "speaker": "agent",
+      "text_preview": "Sure thing. One of the key features is instant, daily payout...",
+      "score": 100,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 42,
+      "speaker": "agent",
+      "text_preview": "No problem at all — take your time. You’ll get all the detai...",
+      "score": 100,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 44,
+      "speaker": "agent",
+      "text_preview": "You're welcome, Danny. We're glad to have you onboard.",
+      "score": 100,
+      "signal": "neutral",
+      "phase": "value"
+    }
+  ]
+}

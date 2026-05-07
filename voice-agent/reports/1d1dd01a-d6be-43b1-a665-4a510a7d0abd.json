@@ -1,0 +1,232 @@
+{
+  "call_id": "1d1dd01a-d6be-43b1-a665-4a510a7d0abd",
+  "lead_id": null,
+  "timestamp_start": null,
+  "timestamp_end": "2026-05-07T13:45:19.450714+00:00",
+  "duration_seconds": null,
+  "system_score": null,
+  "final_phase": null,
+  "value_step_reached": null,
+  "lead": {
+    "name": null,
+    "phone": null,
+    "city": null,
+    "partner_type": "financial_advisor"
+  },
+  "language": {
+    "detected": "en",
+    "used": "English",
+    "switched_mid_call": false,
+    "switched_to": null
+  },
+  "benefits_covered": {
+    "zero_joining_fee": true,
+    "hundred_percent_brokerage": true,
+    "daily_payouts": true,
+    "rise_portal": false
+  },
+  "objections": [],
+  "qualification": {
+    "score": 70,
+    "classification": "Hot",
+    "classification_value": "Hot",
+    "signals": {
+      "verbal_interest": "high",
+      "readiness": "days",
+      "sentiment_end_of_call": "positive",
+      "asked_followup_questions": true,
+      "signup_intent_stated": false
+    }
+  },
+  "outcome": {
+    "result": "interested",
+    "result_value": "Interested",
+    "cta_given": "whatsapp_link",
+    "cta_given_value": "WhatsApp Link",
+    "cta_accepted": true,
+    "callback_time_requested": null
+  },
+  "rm_handoff": {
+    "triggered": false,
+    "summary": "Lead is a financial advisor managing 20-30 clients. They expressed strong interest in both better tools and higher payouts. The agent covered zero joining fees, up to 100% brokerage sharing, and daily payouts, to which the lead responded positively. The lead agreed to receive further details via messages.",
+    "unresolved_objections": [],
+    "do_not_repitch": [
+      "zero_joining_fee",
+      "hundred_percent_brokerage",
+      "daily_payouts"
+    ],
+    "lead_language": "en"
+  },
+  "post_call_summary": "Lead is an English-speaking financial advisor managing 20-30 clients. The call ended positively with the lead expressing interest in better tools and higher payouts, and accepting the agent's offer to send further details. Classify as Hot. RM to follow up by sending the promised information, likely a WhatsApp link for program details.",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "agent",
+      "text": "Sir, quick question — if someone in your position was earning more from their existing clients without extra effort, you'd want to know how they're doing it, right?"
+    },
+    {
+      "turn": 2,
+      "speaker": "lead",
+      "text": "It's a job."
+    },
+    {
+      "turn": 3,
+      "speaker": "lead",
+      "text": "Uh, yes, I would think so."
+    },
+    {
+      "turn": 4,
+      "speaker": "agent",
+      "text": "Absolutely — most people in your position are already managing clients, right? Roughly how many are you handling these days?"
+    },
+    {
+      "turn": 5,
+      "speaker": "lead",
+      "text": "I would say around, like, uh, 20, 30, but why do you want to know all of these?"
+    },
+    {
+      "turn": 6,
+      "speaker": "agent",
+      "text": "That's a solid number — usually at that scale, the payout structure starts to matter more. Have you ever looked into how your current setup compares?"
+    },
+    {
+      "turn": 7,
+      "speaker": "lead",
+      "text": "Uh, yes. Uh, I'm looking into it. Why?"
+    },
+    {
+      "turn": 8,
+      "speaker": "agent",
+      "text": "Makes sense — most brokers don’t realize they’re leaving money on the table. If you could earn more from those same 20-30 clients without extra effort, that’s something worth exploring, right?"
+    },
+    {
+      "turn": 9,
+      "speaker": "lead",
+      "text": "Yes, I think so."
+    },
+    {
+      "turn": 10,
+      "speaker": "agent",
+      "text": "Perfect — that’s exactly where Rupeezy helps partners like you. Curious, what’s your main goal right now: higher payouts, better tools, or something else?"
+    },
+    {
+      "turn": 11,
+      "speaker": "lead",
+      "text": "Better tools, higher payout, I would say all of these."
+    },
+    {
+      "turn": 12,
+      "speaker": "agent",
+      "text": "Then you’ll appreciate this — one thing we do differently is offer zero joining fees, so there’s no risk to even try it out. How does that sound?"
+    },
+    {
+      "turn": 13,
+      "speaker": "lead",
+      "text": "Okay."
+    },
+    {
+      "turn": 14,
+      "speaker": "agent",
+      "text": "Great. And depending on your volume, brokerage sharing can go up to 100% — meaning you keep everything you earn. Does that align with what you’re looking for?"
+    },
+    {
+      "turn": 15,
+      "speaker": "lead",
+      "text": "Okay."
+    },
+    {
+      "turn": 16,
+      "speaker": "agent",
+      "text": "And the best part? Payouts happen daily, so you don’t have to wait for cycles. Sound like something you’d want for your 20-30 clients?"
+    },
+    {
+      "turn": 17,
+      "speaker": "lead",
+      "text": "Okay. Yes."
+    },
+    {
+      "turn": 18,
+      "speaker": "agent",
+      "text": "Perfect. I’ll have our team share the details with you shortly — keep an eye on your messages."
+    },
+    {
+      "turn": 19,
+      "speaker": "lead",
+      "text": "Okay, sure."
+    }
+  ],
+  "score_timeline": [
+    {
+      "turn": 1,
+      "speaker": "agent",
+      "text_preview": "Sir, quick question — if someone in your position was earnin...",
+      "score": 5,
+      "signal": "neutral",
+      "phase": "engage"
+    },
+    {
+      "turn": 4,
+      "speaker": "agent",
+      "text_preview": "Absolutely — most people in your position are already managi...",
+      "score": 15,
+      "signal": "positive",
+      "phase": "engage"
+    },
+    {
+      "turn": 6,
+      "speaker": "agent",
+      "text_preview": "That's a solid number — usually at that scale, the payout st...",
+      "score": 25,
+      "signal": "positive",
+      "phase": "engage"
+    },
+    {
+      "turn": 8,
+      "speaker": "agent",
+      "text_preview": "Makes sense — most brokers don’t realize they’re leaving mon...",
+      "score": 30,
+      "signal": "neutral",
+      "phase": "engage"
+    },
+    {
+      "turn": 10,
+      "speaker": "agent",
+      "text_preview": "Perfect — that’s exactly where Rupeezy helps partners like y...",
+      "score": 40,
+      "signal": "positive",
+      "phase": "value"
+    },
+    {
+      "turn": 12,
+      "speaker": "agent",
+      "text_preview": "Then you’ll appreciate this — one thing we do differently is...",
+      "score": 50,
+      "signal": "positive",
+      "phase": "value"
+    },
+    {
+      "turn": 14,
+      "speaker": "agent",
+      "text_preview": "Great. And depending on your volume, brokerage sharing can g...",
+      "score": 55,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 16,
+      "speaker": "agent",
+      "text_preview": "And the best part? Payouts happen daily, so you don’t have t...",
+      "score": 60,
+      "signal": "neutral",
+      "phase": "value"
+    },
+    {
+      "turn": 18,
+      "speaker": "agent",
+      "text_preview": "Perfect. I’ll have our team share the details with you short...",
+      "score": 70,
+      "signal": "positive",
+      "phase": "value"
+    }
+  ]
+}

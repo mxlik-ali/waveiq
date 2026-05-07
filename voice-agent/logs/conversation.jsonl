@@ -1,0 +1,19 @@
+{"role": "assistant", "text": "Sir, quick question — if someone in your position was earning more from their existing clients without extra effort, you'd want to know how they're doing it, right?", "signal": "neutral", "score": 5, "phase": "engage", "value_step": 0}
+{"role": "user", "text": "It's a job."}
+{"role": "user", "text": "Uh, yes, I would think so."}
+{"role": "assistant", "text": "Absolutely — most people in your position are already managing clients, right? Roughly how many are you handling these days?", "signal": "positive", "score": 15, "phase": "engage", "value_step": 0}
+{"role": "user", "text": "I would say around, like, uh, 20, 30, but why do you want to know all of these?"}
+{"role": "assistant", "text": "That's a solid number — usually at that scale, the payout structure starts to matter more. Have you ever looked into how your current setup compares?", "signal": "positive", "score": 25, "phase": "engage", "value_step": 0}
+{"role": "user", "text": "Uh, yes. Uh, I'm looking into it. Why?"}
+{"role": "assistant", "text": "Makes sense — most brokers don’t realize they’re leaving money on the table. If you could earn more from those same 20-30 clients without extra effort, that’s something worth exploring, right?", "signal": "neutral", "score": 30, "phase": "engage", "value_step": 0}
+{"role": "user", "text": "Yes, I think so."}
+{"role": "assistant", "text": "Perfect — that’s exactly where Rupeezy helps partners like you. Curious, what’s your main goal right now: higher payouts, better tools, or something else?", "signal": "positive", "score": 40, "phase": "value", "value_step": 0}
+{"role": "user", "text": "Better tools, higher payout, I would say all of these."}
+{"role": "assistant", "text": "Then you’ll appreciate this — one thing we do differently is offer zero joining fees, so there’s no risk to even try it out. How does that sound?", "signal": "positive", "score": 50, "phase": "value", "value_step": 1}
+{"role": "user", "text": "Okay."}
+{"role": "assistant", "text": "Great. And depending on your volume, brokerage sharing can go up to 100% — meaning you keep everything you earn. Does that align with what you’re looking for?", "signal": "neutral", "score": 55, "phase": "value", "value_step": 2}
+{"role": "user", "text": "Okay."}
+{"role": "assistant", "text": "And the best part? Payouts happen daily, so you don’t have to wait for cycles. Sound like something you’d want for your 20-30 clients?", "signal": "neutral", "score": 60, "phase": "value", "value_step": 2}
+{"role": "user", "text": "Okay. Yes."}
+{"role": "assistant", "text": "Perfect. I’ll have our team share the details with you shortly — keep an eye on your messages.", "signal": "positive", "score": 70, "phase": "value", "value_step": 2}
+{"role": "user", "text": "Okay, sure."}
